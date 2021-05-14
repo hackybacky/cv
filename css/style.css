@@ -1,0 +1,111 @@
+
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+
+.div1{
+
+  width: 100% ;
+  height: 32rem ;
+}
+
+.div2{
+  background-color: 				#B0E0E6;
+  padding-top: 2rem;
+
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.frontpageimage{
+  width:  100%  ;
+  height: 25rem ;
+}
+
+.frontpageheading{
+  text-align: center;
+  color : #BC8F8F;
+
+  margin : 0 0;
+  margin-bottom: 1rem;
+}
+
+.myimage{
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+}
+
+h2{
+  color : blue;
+}
+.div3{
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding-top: 2rem;
+}
+
+.showinlineleft{
+margin-left: 5.25rem;
+margin-top: 0;
+text-align: right;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.pushable {
+  background: hsl(340deg 100% 32%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(-4px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+.pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.anchortagnoline{
+  color: white;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+.anchortagblue{
+  color: blue;
+}
+.leftimage{
+  margin-left: 40rem;
+  margin-top: 7rem;
+}
+.rightimage{
+  margin-right: 40rem;
+  margin-top: 7rem;
+}
+.showinlineright{
+  text-align: right;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagemargin{
+  margin-left: 1rem;
+}
